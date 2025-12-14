@@ -1,5 +1,5 @@
 // Select all necessary elements from the DOM
-const video = document.querySelector('video');
+const video = document.querySelector('.player__video');
 const playerButton = document.querySelector('.player__button.toggle');
 const volumeInput = document.querySelector('input[name="volume"]');
 const speedInput = document.querySelector('input[name="playbackSpeed"]');
